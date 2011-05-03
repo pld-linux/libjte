@@ -1,3 +1,5 @@
+# NOTE: current version of libjte is built from jigit.spec
+# track both sources of libjte in case of future split
 Summary:	Jigdo Template Extraction library
 Summary(pl.UTF-8):	Biblioteka do szablonów jigdo (Jigdo Template Extraction)
 Name:		libjte
@@ -10,6 +12,7 @@ Group:		Libraries
 Source0:	%{name}-%{version}-%{svnver}.tar.bz2
 # Source0-md5:	033113f090da1ca9e9ac1398721d3d96
 URL:		http://libburnia-project.org/
+BuildRequires:	SEE-jigit.spec
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
